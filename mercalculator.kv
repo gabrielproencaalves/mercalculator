@@ -1,0 +1,44 @@
+#:kivy 2.3.0
+
+<Mercalculator>:
+    GridLayout:
+        id: tabela
+        cols: 2
+        size: root.width * 3/4, root.height * 1/3
+        center: root.center_x, root.center_y
+
+        TextInput:
+            id: entrada1
+            input_filter: "float"
+            multiline: False
+            font_size: self.height * 3/4
+
+        TextInput:
+            id: entrada1
+            input_filter: "float"
+            multiline: False
+            font_size: self.height * 3/4
+
+        TextInput:
+            id: entrada1
+            input_filter: "float"
+            multiline: False
+            font_size: self.height * 3/4
+
+        Label:
+            id: saida
+            multiline: False
+            font_size: self.height * 3/4
+            text: "?"
+
+    Button:
+        id: x_button
+        center: root.center_x, (root.height - tabela.height)/4
+        font_size: self.height * 3/4
+        text: "X"
+
+    Button:
+        id: clear_button
+        center: root.center_x + tabela.width/4, (root.height - tabela.height)/4
+        font_size: self.height * 3/4
+        text: "C"
