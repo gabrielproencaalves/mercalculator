@@ -27,7 +27,7 @@ class Mercalculator(Widget):
             return True
 
     def clearall(self):
-        self.output.text = ""
+        self.output.text = "?"
         self.numor1.text = ""
         self.denor1.text = ""
         self.numor2.text = ""
