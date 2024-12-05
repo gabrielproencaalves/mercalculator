@@ -11,7 +11,7 @@
     GridLayout:
         id: table
         cols: 2
-        size: root.width - 10, 160
+        size: root.width - 10, root.height/3
         center: root.center_x, root.center_y
 
         TextInput:
@@ -19,27 +19,30 @@
             input_filter: "float"
             multiline: False
             halign: "center"
-            font_size: 24
+            font_size: self.height * 4/5
+            padding: 0, 0, 0, 0
 
         TextInput:
             id: numor2
             input_filter: "float"
             multiline: False
             halign: "center"
-            font_size: 24
+            font_size: self.height * 4/5
+            padding: 0, 0, 0, 0
 
         TextInput:
             id: denor1
             input_filter: "float"
             multiline: False
             halign: "center"
-            font_size: 24
+            font_size: self.height * 4/5
+            padding: 0, 0, 0, 0
 
         Label:
             id: output
-            font_size: 24
             halign: "center"
             valign: "center"
+            font_size: self.height * 4/5
             text: "?"
 
     Button:
@@ -47,11 +50,11 @@
         center: root.center_x, (root.height - table.height)/4
         font_size: self.width * self.height / ((self.width + self.height) / 2) ** 2 * min(self.width, self.height)
         text: "X"
-        size: root.width * 2/7, 70
+        size: root.width * 2/7, root.height/9
 
     Button:
         id: clear
         center: eval_x.center_x + eval_x.width, (root.height - table.height)/4
         font_size: self.width * self.height / ((self.width + self.height) / 2) ** 2 * min(self.width, self.height)
         text: "C"
-        size: root.width * 2/7, 70
+        size: root.width * 2/7, root.height/9
