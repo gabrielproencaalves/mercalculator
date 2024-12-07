@@ -29,7 +29,7 @@ source.exclude_dirs = tests, bin, venv, env, kivy_env, build_env
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-# version = Nothing yet
+version = 0.4
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
@@ -44,10 +44,10 @@ requirements = kivy
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)/img/icon.png
+presplash.filename = %(source.dir)s/img/icon.png
 
 # (str) Icon of the application
-icon.filename = %(source.dir)/img/icon.png
+icon.filename = %(source.dir)s/img/icon.png
 
 # (list) Supported orientations
 # Valid options are: landscape, portrait, portrait-reverse or landscape-reverse
