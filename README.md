@@ -11,7 +11,7 @@ To install the app in your phone, you must
 1. Download the available .apk.
 1. Install it on your device.
 
-For now, the attached apk is only intended for Android with armv8 or armv7 architecture hardware. Additionally, there are no versions available for iOS at this time.
+For now, the attached apk is only intended for Android with armv8, armv7, x86 or x86_64 architecture hardware. Additionally, there are no versions available for iOS at this time.
 
 Testing (on desktop)
 ---
