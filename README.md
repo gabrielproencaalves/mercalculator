@@ -36,4 +36,8 @@ and the app will open on your desktop.
 How to contribute
 ---
 
-If you want to contribute to the project, please share it, as this will give other people the opportunity to use this app in their daily lives.
+If you want to contribute to the project, please share it, as this will give other people the opportunity to use this app in their daily lives. Additionally, if this app helped you save money, please donate some to this project. This way, you will allow its author to create more free, libre and useful tools like this.
+
+### PIX (Brazil only)
+
+![My Pix QRCODE](./.github/pix.png)
