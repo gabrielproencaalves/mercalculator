@@ -40,4 +40,4 @@ If you want to contribute to the project, please share it, as this will give oth
 
 ### PIX (Brazil only)
 
-![My Pix QRCODE](./.github/pix.png)
+<img src="./.github/pix.png" alt="My Pix QRCODE" width="200">
