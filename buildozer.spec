@@ -7,7 +7,7 @@ title = Mercalculator
 package.name = mercalculator
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = com.gabrielproencaalves
+package.domain = io.github.gabrielproencaalves
 
 # (str) Source code where the main.py live
 source.dir = .
