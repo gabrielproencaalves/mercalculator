@@ -29,7 +29,7 @@ source.exclude_dirs = tests, bin, venv, env, kivy_env, build_env
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 0.4
+version = 0.4.1
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
