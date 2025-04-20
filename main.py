@@ -19,9 +19,9 @@ class Mercalculator(Widget):
 
     def evaluate_x(self):
         try:
-            n1 = float(self.numor1.text)
-            d1 = float(self.denor1.text)
-            n2 = float(self.numor2.text)
+            n1 = float(self.numor1.text.replace(',', '.'))
+            d1 = float(self.denor1.text.replace(',', '.'))
+            n2 = float(self.numor2.text.replace(',', '.'))
             self.output.text = "%.2f" % ((n2 * d1)/n1)
         except:
             return True
