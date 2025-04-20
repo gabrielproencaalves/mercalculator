@@ -22,7 +22,7 @@ class Mercalculator(Widget):
             n1 = float(self.numor1.text.replace(',', '.'))
             d1 = float(self.denor1.text.replace(',', '.'))
             n2 = float(self.numor2.text.replace(',', '.'))
-            self.output.text = "%.2f" % ((n2 * d1)/n1)
+            self.output.text = "%.3f" % ((n2 * d1)/n1)
         except:
             return True
 
