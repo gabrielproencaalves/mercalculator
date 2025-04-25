@@ -38,6 +38,9 @@ class Mercalculator(Widget):
         # Se for no botao eval_x
         if self.eval_x.collide_point(*touch.pos):
             return self.evaluate_x()
+        # Se for no display de x
+        if self.output.collide_point(*touch.pos):
+            return self.evaluate_x()
         # Se for no botao clear
         if self.clear.collide_point(*touch.pos):
             return self.clearall()
