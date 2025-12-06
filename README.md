@@ -2,6 +2,10 @@
 
 Proportionality constant calculator, i.e. rule of three. Useful for checking cheaper and more viable products on the market, for example.
 
+![Mercalculator screenshot with legends](./.github/MercalculatorScreenshotExplanation.jpg)
+
+![Mercalculator usage example](./.github/MercalculatorScreenshotExample.jpg)
+
 Installing (only Android)
 ---
 
