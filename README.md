@@ -1,3 +1,9 @@
+# ⚠️ ATENÇÃO. WARNING ⚠️
+
+Por razões pessoais, todos os meus repositórios do github, incluindo este, estão em processo de transferência a outra plataforma. Por isso, este repositório será excluído no dia 21 de janeiro de 2026, mas sua continuação poderá ser encontrada em **codeberg ponto org barra Gabrielovsky barra mercalculator**.
+
+For personal reasons, all my github repositories, including this one, are in the process of transferring to another platform. Therefore, this repository will be deleted on January 21, 2026, but its continuation can be found in **codeberg dot org slash Gabrielovsky slash mercalculator**.
+
 # mercalculator
 
 Proportionality constant calculator, i.e. rule of three. Useful for checking cheaper and more viable products on the market, for example.
